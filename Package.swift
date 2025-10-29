@@ -26,11 +26,11 @@ let package = Package(
   dependencies: [
     .package(url: "https://github.com/apple/swift-crypto.git", "1.0.0"..<"5.0.0"),
     .package(url: "https://github.com/apple/swift-http-types.git", from: "1.3.0"),
-    .package(url: "https://github.com/jarcafi/swift-clocks.git", from: "1.0.0"),
-    .package(url: "https://github.com/jarcafi/swift-concurrency-extras.git", from: "1.1.0"),
-    .package(url: "https://github.com/jarcafi/swift-custom-dump.git", from: "1.3.2"),
-    .package(url: "https://github.com/jarcafi/swift-snapshot-testing.git", from: "1.17.0"),
-    .package(url: "https://github.com/jarcafi/xctest-dynamic-overlay.git", from: "1.2.2"),
+    .package(url: "https://github.com/jarcafi/swift-clocks.git", branch: "main"),
+    .package(url: "https://github.com/jarcafi/swift-concurrency-extras.git", branch: "main"),
+    .package(url: "https://github.com/jarcafi/swift-custom-dump.git", branch: "main"),
+    .package(url: "https://github.com/jarcafi/swift-snapshot-testing.git", branch: "main"),
+    .package(url: "https://github.com/jarcafi/xctest-dynamic-overlay.git", branch: "main"),
     .package(url: "https://github.com/WeTransfer/Mocker", from: "3.0.0"),
   ],
   targets: [
